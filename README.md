@@ -3,10 +3,12 @@
 All files contain such big images that github can't load them. 
 please download and see them on Google colab.
 
-dataset : flower102 
+dataset : flower102 <br />
 you can download at https://www.kaggle.com/c/oxford-102-flower-pytorch/data
 
-Execution order
+##Execution order <br/>
+we have 3 sequential steps to train each modules instead of traning the whole model at one step.    
+ 
   1. encoder
    - Link the dataset to use for training, validation, test.
    - It uses resnet50 as the baseline.
@@ -18,5 +20,8 @@ Execution order
    
   3. GAN
    - Use the trained generator from 2.
-   - Training part 
+   - L1 loss is added to GAN loss. This is for training stability, also the right color.
+
+##Result
+
 
