@@ -33,3 +33,10 @@ we have 3 sequential steps to train each modules instead of traning the whole mo
  <br>
  with L1 loss integrated to GAN, final model shows good performances : right color, good impression(색감) .
  
+ ## References
+[1] Colorful Image Colorization Richard Zhang, Phillip Isola, Alexei A. Efros (Submitted on 28 Mar 2016 (v1), last revised 5 Oct 2016 (this version, v5)) https://arxiv.org/abs/1603.08511
+ <br>
+[2] Deep Colorization, Zezhou Cheng, Qingxiong Yang, Bin Sheng (Submitted on 30 Apr 2016) https://arxiv.org/abs/1605.00075
+ <br>
+[3] Auto Colorization of Black and White Images using Machine Learning “Auto-encoders” technique https://medium.com/@mahmoudeljiddawi/auto-colorization-of-black-and-white-images-using-machine-learning-auto-encoders-technique-a213b47f7339
+
