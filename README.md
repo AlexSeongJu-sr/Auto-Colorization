@@ -7,7 +7,7 @@ dataset : flower102 <br />
 you can download at https://www.kaggle.com/c/oxford-102-flower-pytorch/data <br>
 If you are interested, you can try another dataset. However, you should change models(ex. change encoder structure for 102 categories to other).
 
-##Execution order <br/>
+## Execution order 
 we have 3 sequential steps to train each modules instead of traning the whole model at one step.    
  
   1. encoder
@@ -28,7 +28,7 @@ we have 3 sequential steps to train each modules instead of traning the whole mo
    - GAN structure
     <br/><br> ![gan](./_images/gan.jpg)
 
-##Result
+## Result
  ![cinoare](./_images/compare.jpg)
  <br>
  with L1 loss integrated to GAN, final model shows good performances : right color, good impression(색감) .
